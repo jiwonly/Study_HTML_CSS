@@ -8,7 +8,7 @@
   <body>
     <!-- form 요소 -->
     <!-- 사용자로부터 데이터(정보)를 입력 받기 위한 HTML 요소들-->
-    <form action="">
+    <form action="/server/login/">
       <div>
         <label for="email">이메일</label>
         <input type="email" id="email" />
@@ -21,5 +21,30 @@
         <button>로그인</button>
       </div>
     </form>
+    <br />
+    <br />
+    <h4>당신이 배우고 싶은 언어는?(다중 선택 가능)</h4>
+    <div>
+      <input type="checkbox" name="chk_lang" id="chk_html" />
+      <label for="chk_html">HTML</label>
+
+      <input type="checkbox" name="chk_lang" id="chk_css" />
+      <label for="chk_css">CSS</label>
+
+      <input type="checkbox" name="chk_lang" id="chk_js" />
+      <label for="chk_js">JavaScript</label>
+    </div>
+
+    <h4>당신이 배우고 싶은 언어는?(하나만 선택 가능)</h4>
+    <div>
+      <input type="radio" name="rdo_lang" id="rdo_html" />
+      <label for="rdo_html">HTML</label>
+
+      <input type="radio" name="rdo_lang" id="rdo_css" />
+      <label for="rdo_css">CSS</label>
+
+      <input type="radio" name="rdo_lang" id="rdo_js" />
+      <label for="rdo_js">JavaScript</label>
+    </div>
   </body>
 </html>
