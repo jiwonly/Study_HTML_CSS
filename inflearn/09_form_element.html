@@ -46,5 +46,108 @@
       <input type="radio" name="rdo_lang" id="rdo_js" />
       <label for="rdo_js">JavaScript</label>
     </div>
+    <br /><br />
+
+    <div>
+      <label for="">가장 좋아하는 색상은?</label>
+      <input type="color" value="" id="favoriteColor" />
+    </div>
+
+    <div>
+      <label for="">태어난 날짜는?</label>
+      <input type="date" name="" id="bornDate" />
+    </div>
+
+    <div>
+      <label for="">입국한 날짜/시간은?</label>
+      <input type="datetime-local" name="" id="arrivalDateTime" />
+    </div>
+
+    <div>
+      <form action="">
+        <label for="">이메일 주소는?</label>
+        <input type="email" name="" id="userEmail" />
+        <button type="submit">저장</button>
+      </form>
+    </div>
+
+    <div>
+      <label for="">파일 첨부</label>
+      <input type="file" name="" id="attachment" />
+    </div>
+
+    <div>
+      <!-- 사용자의 입력을 받기 위한 용도가 아님 -->
+      <!-- 대부분 개발자가 사용하기 위해서 쓰는 태그 -->
+      <input type="hidden" value="ys@gmail.com" name="email" />
+    </div>
+
+    <div>
+      <img
+        src="./img/전원우.jpg"
+        alt="전원우 생일"
+        style="width: 100px; height: auto"
+      />
+
+      <!-- 버튼의 역할을 하는 이미지 -->
+      <!-- 하지만 실무에서 쓰지 X -->
+      <input
+        type="image"
+        src="./img/전원우.jpg"
+        alt="전원우 생일"
+        style="width: 100px; height: auto"
+      />
+    </div>
+
+    <div>
+      <label for="">생년/년월</label>
+      <input type="month" name="" id="yearMonth" />
+    </div>
+
+    <div>
+      <label for="">당신의 나이는?</label>
+      <input type="number" min="1" max="110" id="ageNumber" />
+    </div>
+
+    <div>
+      <label for="">비밀번호</label>
+      <input type="password" name="" id="userPw" />
+    </div>
+
+    <div>
+      <form action="">
+        <label for="">전화번호</label>
+        <input type="tel" value="" id="phone" pattern="^010-\d{4}-\d{4}$" />
+        <button type="submit">저장</button>
+      </form>
+    </div>
+
+    <div>
+      <label for="">일반문자</label>
+      <input type="text" id="general" />
+    </div>
+
+    <div>
+      <label for="">예약시간</label>
+      <input type="time" name="" id="visitTime" />
+    </div>
+
+    <div>
+      <form action="">
+        <label for="blogURL">블로그 주소는?</label>
+        <input type="url" name="" id="blogURL" />
+        <button type="submit">저장</button>
+      </form>
+    </div>
+
+    <div>
+      <label for="weekPlan">주간 계획(몇 주차)</label>
+      <input type="week" name="" id="weekPlan" />
+    </div>
+
+    <div>
+      <label for="searchKeyword">검색조건</label>
+      <input type="search" name="" id="searchKeyword" />
+    </div>
   </body>
 </html>
