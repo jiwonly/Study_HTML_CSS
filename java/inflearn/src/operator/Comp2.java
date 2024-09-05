@@ -13,6 +13,6 @@ public class Comp2 {
         System.out.println(result2);
         System.out.println(result3);
 
-        // ctrl + shift + enter = 자동 끝맺음 단축키!!
+        // shift + ctrl + enter = 자동 끝맺음 단축키!!
     }
 }
