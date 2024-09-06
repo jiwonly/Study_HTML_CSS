@@ -11,18 +11,30 @@
       }
 
       /* 배경 이미지 */
+      /* background: color, image, repeat, position */
       body {
-        background-image: url(./나무.jfif);
+        /* background-image: url(./나무.jfif); */
+
         /* x축 방향으로 반복 */
         /* background-repeat: repeat-x; */
         /* y축 방향으로 반복 */
         /* background-repeat: repeat-y; */
-        background-repeat: no-repeat;
-        background-position: center top;
+        /* background-repeat: no-repeat; */
+
+        /* background-position: center top;
+        background-position: left center;
+        background-position: center center; */
+        /* background-position: right top; */
+        /* background-position: right 20px top 50px; */
+
+        background-attachment: fixed;
+        /* background-attachment: scroll; */
+
+        background: yellowgreen url("./나무.jfif") no-repeat right 20px top 50px;
       }
     </style>
   </head>
-  <body>
-    <div>배경색</div>
+  <body style="height: 800px">
+    <!-- <div>배경색</div> -->
   </body>
 </html>
