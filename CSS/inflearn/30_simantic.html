@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      .header {
+        padding: 60px;
+        text-align: center;
+        background-color: #f9fc63;
+        color: black;
+      }
+
+      .navbar {
+        display: flex;
+        flex-direction: row;
+        background-color: #333;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+      }
+
+      .navbar a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+      }
+
+      .navbar a:hover {
+        background-color: #f9fc63;
+        color: black;
+      }
+
+      .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .side {
+        flex: 30%;
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+
+      .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
+
+      .main {
+        flex: 70%;
+        background-color: white;
+        padding: 20px;
+      }
+
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background-color: #ddd;
+      }
+
+      /* 반응형 웹 */
+      @media screen and (max-width: 768px) {
+        .row,
+        .navbar {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 레이아웃을 위한 시멘틱 태그 -->
+    <!-- header -->
+    <!-- nav -->
+    <!-- aside -->
+    <!-- main -->
+    <!-- section -->
+    <header class="header">
+      <h1>Who Am I</h1>
+    </header>
+    <nav class="navbar">
+      <a href="#">메뉴1</a>
+      <a href="#">메뉴2</a>
+      <a href="#">메뉴3</a>
+      <a href="#project4">메뉴4</a>
+      <!-- 위치로 이동 -->
+      <a href="#project5">메뉴5</a>
+    </nav>
+
+    <div class="row">
+      <aside class="side">
+        <div class="about">
+          <h2>About</h2>
+          <div class="fakeimg" style="height: 200px">Image</div>
+          <p>
+            저는 소프트웨어 개발자입니다. 성균관대학교 수학교육과에 재학
+            중입니다.
+          </p>
+          <h3>Skills</h3>
+          <p>Python, C, C++, HTML, CSS, Java</p>
+          <div class="fakeimg" style="height: 60px">Image</div>
+          <br />
+          <div class="fakeimg" style="height: 60px">Image</div>
+          <br />
+          <div class="fakeimg" style="height: 60px">Image</div>
+        </div>
+      </aside>
+      <main class="main">
+        <section>
+          <h2>프로젝트1</h2>
+          <h5>2024년 8월</h5>
+          <div class="fakeimg" style="height: 200px"></div>
+          <p>
+            이 프로젝트는 ~입니다. 이 프로젝트에서 제 역할은 프론트엔드
+            개발자입니다.
+          </p>
+        </section>
+        <section>
+          <h2>프로젝트2</h2>
+          <h5>2024년 9월</h5>
+          <div class="fakeimg" style="height: 200px"></div>
+          <p>
+            이 프로젝트는 ~입니다. 이 프로젝트에서 제 역할은 프론트엔드
+            개발자입니다.
+          </p>
+        </section>
+        <section>
+          <h2>프로젝트3</h2>
+          <h5>2024년 9월</h5>
+          <div class="fakeimg" style="height: 200px"></div>
+          <p>
+            이 프로젝트는 ~입니다. 이 프로젝트에서 제 역할은 프론트엔드
+            개발자입니다.
+          </p>
+        </section>
+        <section id="project4">
+          <h2>프로젝트4</h2>
+          <h5>2024년 9월</h5>
+          <div class="fakeimg" style="height: 200px"></div>
+          <p>
+            이 프로젝트는 ~입니다. 이 프로젝트에서 제 역할은 프론트엔드
+            개발자입니다.
+          </p>
+        </section>
+        <section id="project5">
+          <h2>프로젝트5</h2>
+          <h5>2024년 9월</h5>
+          <div class="fakeimg" style="height: 200px"></div>
+          <p>
+            이 프로젝트는 ~입니다. 이 프로젝트에서 제 역할은 프론트엔드
+            개발자입니다.
+          </p>
+        </section>
+      </main>
+    </div>
+    <div class="footer">
+      <h3>Copyright jiwon 2024</h3>
+    </div>
+    <script></script>
+  </body>
+</html>
