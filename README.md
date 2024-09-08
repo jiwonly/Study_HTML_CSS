@@ -1,2 +1,2 @@
 # Study
-various languages
+HTML and CSS
